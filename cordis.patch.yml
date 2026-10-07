@@ -1,0 +1,3 @@
+- insert:
+    - id: helloai-skills
+      name: '@hello-heyongping/dsh-helloai-skills'

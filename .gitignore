@@ -1,0 +1,9 @@
+# dsh-helloai-skills ignores
+#
+# NOTE: lib/ is deliberately NOT ignored. The repository ships the built
+# artifacts so that `dsh plugin --profile <p> add github:hello-heyongping/dsh-helloai-skills`
+# works without a build step. `npm run build` regenerates lib/ from src/.
+node_modules/
+*.tgz
+*.log
+.helloai-skills-*/
